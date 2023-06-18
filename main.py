@@ -7,7 +7,7 @@ def CRUD():
         'd' : '4',
         'e' : '5'
     }
-    # 1. Функція без параметрів. Додає юзера до словника
+    # 1. A function without parameters. Adds a user to the dictionary
     login = str(input('Enter your login -> '))
     password = str(input('Enter your password -> '))
 
@@ -18,7 +18,7 @@ def CRUD():
         print('Bye!')
     print(user)
 
-    # 2. Функція без параметрів. Змінює пароль юзера, якщо він все ввів та хоче змінити
+    # 2. A function without parameters. Changes the user's password if he has entered everything and wants to change it
     login = str(input('Enter your login -> '))
     password = str(input('Enter your password -> '))
 
@@ -33,7 +33,7 @@ def CRUD():
     else:
         print('Error!')
 
-    # 3. Функція без параметрів. видаляє юзера з словника, якщо він там є
+    # 3. A function without parameters. removes the user from the dictionary, if it exists
     login = str(input('Enter your login -> '))
     password = str(input('Enter your password -> '))
 
@@ -47,7 +47,7 @@ def CRUD():
     else:
         print('Error!')
 
-    # 4. Функція без параметрів. Видаляє юзерів зі словника
+    # 4. A function without parameters. Removes users from the dictionary
     login = str(input('Enter your login -> '))
     password = str(input('Enter your password -> '))
     
