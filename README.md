@@ -1,4 +1,4 @@
-# CRUD User Management V2
+# CRUD User Management 
 
 A simple Python console-based application to perform Create, Read, Update, and Delete (CRUD) operations on a user dictionary.
 
